@@ -42,6 +42,6 @@ def img_to_hex(img, preview=False):
     return out
 
 
-img = convert_image('imgs/hello_world.jpg', black_bars=False)
+img = convert_image('imgs/tower_bridge.png', black_bars=False)
 hex = img_to_hex(img)
 write_imagedata_cpp(hex)
